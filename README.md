@@ -1,7 +1,7 @@
 # module-07
 
 ## Description
-
+ This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 - What was your motivation?
