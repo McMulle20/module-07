@@ -68,7 +68,6 @@ function generateReadme(answers) {
 
     const licenseBadge = license !== 'None' ? `![License](https://img.shields.io/badge/license-${license}-blue.svg)` : '';
 
-    // Automatically generate the Table of Contents with anchored links
     const tocLinks = `
     - [Description](#description)
     - [Installation](#installation)
@@ -82,6 +81,9 @@ function generateReadme(answers) {
 
     # ${projectTitle}
     ${licenseBadge}
+
+    ## Table of Contents
+    ${tocLinks}
 
     ## Description
     ${description}
